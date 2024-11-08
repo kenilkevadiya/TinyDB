@@ -1,4 +1,4 @@
-# TinyDB - CSCI 5408 (S24)
+# TinyDB 
 
 ## Project Overview
 
