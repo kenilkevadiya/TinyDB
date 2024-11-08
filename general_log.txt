@@ -1,0 +1,43 @@
+{"timestamp":"2024-07-27 19:53:04","logType":"USER REGISTRATION","details":"User Registered Successfully"}
+{"timestamp":"2024-07-27 19:53:10","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-27 19:53:30","logType":"Execution Time","details":"Query: CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+
+ Execution Time: 15.1096 ms"}
+{"timestamp":"2024-07-27 19:53:53","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 1
+Table Name: users
+Number of Records: 2
+"}
+{"timestamp":"2024-07-27 19:53:53","logType":"Execution Time","details":"Query: use testDB;
+
+ Execution Time: 1.4673 ms"}
+{"timestamp":"2024-07-27 19:53:57","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 2
+Table Name: users
+Number of Records: 2
+Table Name: student
+Number of Records: 0
+"}
+{"timestamp":"2024-07-27 19:53:57","logType":"Execution Time","details":"Query: CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+
+ Execution Time: 20.208 ms"}
+{"timestamp":"2024-07-27 19:54:15","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 2
+Table Name: users
+Number of Records: 2
+Table Name: student
+Number of Records: 0
+"}
+{"timestamp":"2024-07-27 19:54:15","logType":"Execution Time","details":"Query: INSERT INTO student (id, name, email, age) VALUES ('1', 'Student1', 'student1@mail.com', 20);
+
+ Execution Time: 5.2154 ms"}

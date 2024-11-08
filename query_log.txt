@@ -1,0 +1,16 @@
+{"userId":"test","timestamp":"2024-07-27 19:53:30","queryType":"NO DATABASE SELECTED","query":"CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+"}
+{"userId":"test","timestamp":"2024-07-27 19:53:57","queryType":"CREATE TABLE","query":"CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+"}
+{"userId":"test","timestamp":"2024-07-27 19:54:15","queryType":"INSERT ROWS","query":"INSERT INTO student (id, name, email, age) VALUES ('1', 'Student1', 'student1@mail.com', 20);
+"}
