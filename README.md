@@ -1,8 +1,8 @@
 # TinyDB 
 
-## Project Overview
+## Overview
 
-TinyDB is a basic database management system (DBMS) created as part of the CSCI 5408 course at Dalhousie University. The project allows users to perform fundamental DBMS operations through a command-line interface and provides hands-on experience in core database functionalities, including data storage, query execution, transaction processing, and logging, without relying on third-party libraries.
+TinyDB is a basic database management system (DBMS). The project allows users to perform fundamental DBMS operations through a command-line interface and provides hands-on experience in core database functionalities, including data storage, query execution, transaction processing, and logging, without relying on third-party libraries.
 
 ---
 
